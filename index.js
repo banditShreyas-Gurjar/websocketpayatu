@@ -91,6 +91,7 @@ new function() {
 			sendButton = $('#sendButton');
 			
 			connectButton.click(function(e) {
+                e.preventDefault();
 				close();
 				open();
 			});
